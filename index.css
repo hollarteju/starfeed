@@ -248,6 +248,222 @@
     line-height: normal;
 }
 
+.experience-container{
+    background-image: url("dice-bg.png");
+    height: 1203px;
+    padding: 90px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    border-bottom: var(--green_text) solid 10px;
+}
+
+.experience-list-container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding-left: 6rem;
+
+}
+
+.experience-container h2{
+    color: var(--white);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 57px;
+}
+
+.experience-container p{
+    color: var(--white);
+    font-family: "Raleway";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.experience-list-box{
+    width: 400px;
+    align-items: center;
+    margin-bottom: 180px;
+}
+
+.board{
+    width: 300px;
+    height: 150px;
+    border-radius: 25px;
+    background: var(--green_text);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.experience-content{
+    width: 398px;
+    padding-block: 10px;
+    border-radius: 15px;
+    background: var(--white);
+    position: absolute;
+    top: 40px;
+    left: -50px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    gap:1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.experience-content img{
+    width: 45px;
+    height: 45px;
+}
+
+.experience-content span{
+    color: var(--green_text);
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.join-community-container{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    height: 963px;
+    padding: 90px;
+    font-family: "Roboto Slab";
+    overflow: hidden;
+}
+
+.join-community-layer{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-top: 90px;
+}
+
+.join-community-layer h2{
+    color: var(--green_text);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.join-community-layer p{
+    color: var(--black);
+    font-family: "Raleway";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.content-board{
+    display: flex;
+    gap: 100px;
+}
+
+.content-board .content-layer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.content-layer .content{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+}
+
+.content-layer .content img{
+    width: 40px;
+    height: 40px;
+}
+
+.content-layer .content span{
+    color: var(--black);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.symbol{
+    margin-top: 450px;
+}
+
+.social-handle-connect{
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding-left: 250px;
+}
+
+.social-handle-connect p{
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.social-handle-connect .icons{
+    display: flex;
+    gap: 60px;
+}
+
+.social-handle-connect .icons a img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.features{
+    height: 856px;
+    background-image: url("features.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#home-page footer{
+    display: flex;
+    padding: 90px;
+    justify-content: space-between;
+    background-color: var(--green_text);
+    font-family: "Roboto Slab";
+
+}
+
+#home-page footer div,a{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white);
+    font-family: "Raleway";
+}
+
+#home-page footer div h4{
+    font-family: "Roboto Slab";
+    
+}
+
+
+
+
 
 /* .nav ul li:nth-child(1){
     border: 1px solid var(--green_text);
