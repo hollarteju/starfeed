@@ -177,7 +177,7 @@
 }
 
 .instruction-container p{
-    color: #06940B;
+    color: var(--green_text);
     font-family: "Raleway";
     font-size: 24px;
     font-weight: 500;
@@ -187,8 +187,12 @@
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    padding-inline: 4rem;
+    gap: 26px;
+    padding-inline: 3rem;
+}
+
+.instruction-list-box{
+    margin-bottom: 3rem;
 }
 
 .instruction-list-box .header{
@@ -202,6 +206,11 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+#header-content-2{
+    gap: 0.9rem;
+    padding-inline: 0.1rem;
 }
 
 .instruction-list-box .header span{
@@ -220,6 +229,23 @@
     color: var(--white);
     font-size: 24px;
     font-weight: 700;
+}
+
+.instruction-list-box .content{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: start;
+}
+
+.instruction-list-box .content p{
+    color: var(--green_text);
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 40px;
+    line-height: normal;
 }
 
 
